@@ -16,6 +16,10 @@ public class BookEntity {
 	@Column(name = "name")
 	private String name;
 
+	public BookEntity() {
+		super();
+	}
+	
 	public BookEntity(Long id, String name) {
 		super();
 		this.id = id;
